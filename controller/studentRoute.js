@@ -1,5 +1,5 @@
 const express =require("express");
-const studentschema = require("../model/studentschema");
+const studentschema = require("../model/studentSchema");
 const studentRoute = new express.Router();
 
 studentRoute.post('/create-student',(req,res)=>{
